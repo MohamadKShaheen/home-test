@@ -7,9 +7,11 @@ body {
 
 .carousel {
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     align-items: center;
+    margin: 0 auto;
+    position: relative;
 }
 
 .carousel img {
@@ -17,10 +19,27 @@ body {
     width: 100%;
 }
 
+.carousel title {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .container {
-    width:80%;
+    width:100%;
 }
 
 .chevron {
     height: 60px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
 }
