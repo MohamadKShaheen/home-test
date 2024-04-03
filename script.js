@@ -725,7 +725,6 @@ const arr = [
 let index = 0;
 
 function load() {
-    console.log(index);
     document.querySelector("#demo img").src = arr[0].url;
     document.querySelector("#demo title").textContent = arr[0].title;
 }
