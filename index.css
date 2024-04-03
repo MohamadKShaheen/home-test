@@ -1,0 +1,26 @@
+body {
+    max-width: 37.5rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.carousel {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.carousel img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width:80%;
+}
+
+.chevron {
+    height: 60px;
+}
